@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: #110138;
+  color: rgb(255, 255, 255);
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #060014;
+  color: rgb(128, 69, 239);
+  text-align: center;
+  padding: 10vh 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: rgb(128, 69, 239);
+}
+
+.sites {
+  padding: 4rem 2rem;
+  background-color: #060014;
+}
+
+.sites h1 {
+  background-color: #060014;
+  color: rgb(128, 69, 239);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  display: block;
+  background-color: #ad8af7;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 0.25rem 0.313rem rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card a img:hover {
+  transform: scale(1.03);
+}
+
+.sobre {
+  padding: 2.5em 1.25em;
+  background-color: #060014;
+}
+
+.sobre h2 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+  color: rgb(128, 69, 239);
+}
+
+.sobre-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.sobre-content img {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sobre-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.newsletter {
+  background-color: #060014;
+  padding: 2.5rem 1.25rem;
+  text-align: center;
+}
+
+.newsletter-title {
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.newsletter-subtitle {
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+}
+
+.newsletter-box {
+  border: 0.063rem solid #666;
+  padding: 20px;
+  border-radius: 0.313rem;
+  max-width: 31.25rem;
+  margin: 0 auto;
+  background: #2b2b2b;
+}
+
+.newsletter input,
+.newsletter button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.313rem;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 0.625rem;
+}
+
+.newsletter input {
+  background: white;
+  color: black;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #bbb;
+  margin: 0.625rem 0;
+}
+
+.checkbox-container input {
+  width: auto;
+  transform: scale(1.2);
+}
+
+.newsletter button {
+  background: #4b007d;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background: #6a0dad;
+}
+
+.footer {
+  background-color: #110138;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 0.875rem;
+}
+
+.footer .social a {
+  margin: 0 0.625rem;
+  color: rgb(255, 255, 255);
+}
