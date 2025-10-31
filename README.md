@@ -1,7 +1,7 @@
-#Trabalho Final – Front-End
+# Trabalho Final – Front-End
 Este projeto foi desenvolvido como parte da residência em TIC Software pelo Serratec, com foco na construção de uma aplicação web utilizando tecnologias modernas de Front-End. O objetivo foi aplicar conceitos de estruturação de páginas, estilização, responsividade e integração com APIs.
 
-#Participantes;
+# Participantes;
 
 Pedro Vivarini
 
@@ -11,10 +11,11 @@ João Vitor
 
 Gabriel Farias
 
-#Objetivo
+# Objetivo
 Desenvolver a interface de um sistema completo, simulando uma loja virtual com funcionalidades como exibição de produtos, navegação entre seções, e integração com dados da API Back-End.
 
-#Contribuições Individuais
+# Contribuições Individuais
+
 Pedro Vivarini
 
 Desenvolvimento da página da loja, com exibição dinâmica de produtos
@@ -25,7 +26,7 @@ Utilização do Bootstrap para estilização e responsividade
 
 Integração com a API para consumo de dados
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 HTML
 
 CSS
